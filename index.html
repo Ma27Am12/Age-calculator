@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <main class="card">
+    <section class="card__container">
+      <form action="" class="card__container__form">
+        <section class="card__container__form__cont">
+          <section class="card__container__form__cont__block">
+            <label for="Day" class="card__container__form__cont__block__label">
+                   Day
+            </label>
+            <input 
+            type="number" 
+            class="card__container__form__cont__block__day"
+            placeholder="DD"
+            >
+            <small></small>
+          </section>
+          <section class="card__container__form__cont__block">
+            <label for="Month" class="card__container__form__cont__block__label">
+                   Month
+            </label>
+            <input 
+            type="number" 
+            class="card__container__form__cont__block__month"
+            placeholder="MM"
+            >
+            <small></small>
+          </section>
+          <section class="card__container__form__cont__block">
+            <label for="Year" class="card__container__form__cont__block__label">
+                   Year
+            </label>
+            <input 
+            type="number" 
+            class="card__container__form__cont__block__year"
+            placeholder="YYYY"
+            >
+            <small></small>
+          </section>
+        </section>
+        <section class="card__container__form__cont__submit">
+          <hr>
+          <button type="submit" class="card__container__form__cont__submit__btn">
+            <img src="./assets/images/icon-arrow.svg" alt="icon-arrow" 
+            class="card__container__form__cont__submit__btn__img"
+            >
+          </button>
+        </section>
+      </form>
+      <section class="card__container__output">
+        <h1 class="card__container__output__title">
+          <span id="YY" class="card__container__output__title-span">
+            --
+          </span>
+          years
+        </h1>
+        <h1 class="card__container__output__title">
+          <span id="MM" class="card__container__output__title-span">
+            --
+          </span>
+          months
+        </h1>
+        <h1 class="card__container__output__title">
+          <span id="DD" class="card__container__output__title-span">
+          --
+          </span>
+          days
+        </h1>
+      </section>
+    </section>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>
